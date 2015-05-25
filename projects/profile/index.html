@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<head>
+<link href='https://fonts.googleapis.com/css?family=La+Belle+Aurore' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+  <title>Kate Ernst</title>
+</head>
+<body>
+  <h1>Kate Ernst</h1>
+  <h2>University of Michigan - Iowa Native</h2>
+ <div class="first">
+  <p>Why coding?<br />
+  <small>I want to have the foundation to start my own business, so I want to be able to build websites and apps. </small></p>
+</div>
+ <div class="second">
+  <p>Why Cape Town?<br />
+  <small> I'm so excited to hike, especially sunrise hikes. I'm also excited to shark cave dive. </small></p>
+</div>
+ <div class="third">
+  <p>Fun Fact<br />
+  <small>I really like to run and I am obsessed with glasses</small></p>
+</div>
+
+<script>
+  $('div').on('click', function() {
+      $(this).toggleClass('show-description');
+  });
+</script>
+</body>

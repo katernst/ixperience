@@ -1,0 +1,59 @@
+body {
+  background: url("http://i.imgur.com/7KL0MRT.jpg");
+  background-size: cover;
+  background-position: center;
+}
+div {
+  background: rgba(255, 255, 255, .75);
+  margin: 20px 0 0 0;
+  border-radius: 50px;
+  width: 50%
+}
+h1 {
+  font-family: 'La Belle Aurore', cursive;
+  font-size: 100px;
+  text-align: left;
+  color: black;
+  margin: 0 0 -90px 0;
+}
+h2 {
+  font-family: 'La Belle Aurore', cursive;
+  font-size: 40px;
+  margin: 40px 0 110px 0;
+}
+p {
+  height: 150px;
+  position: relative;
+  overflow: scroll;
+  text-align: center;
+  color: black;
+  font-family: helvetica;     
+  font-size: 40px;
+  opacity: 0;
+}
+.first {
+  background: url("http://i.imgur.com/5K0cyGa.png?1");
+  opacity: .75;
+  background-size: cover;
+  background-position: center;
+}
+.second {
+  background: url("http://i.imgur.com/TpYEoye.png?1");
+  opacity: .75;
+  background-size: cover;
+  background-position: center;
+}
+.third {
+  background: url("http://i.imgur.com/EANSBL4.png?1");
+  opacity: .75;
+  background-size: cover;
+  background-position: center;
+}
+.show-description p {
+  height: 150px;
+  background: url("http://i.imgur.com/AopAcbs.png?1");
+  background-size: cover;
+  opacity: 1;
+  padding: 10px;
+  border-radius: 50px;
+}
